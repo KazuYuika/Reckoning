@@ -1,0 +1,80 @@
+{
+  "DIR": "C:\\xampp\\htdocs\\Reckoning",
+  "websiteName": "Reckoning",
+  "websiteURL": "localhost",
+  "apiKey": "your-api-key",
+  "serverIP": "us.dayofreckoning.xyz",
+  "database": {
+    "host": "upsilon.optiklink.com",
+    "port": "3306",
+    "username": "u86187_yvCO2iwzMr",
+    "password": "i1YUkkMlYM.awq=leBz@hnfx",
+    "databaseName": "s86187_reckon"
+  },
+  "email": {
+    "smtpServer": "smtp.yourdomain.com",
+    "smtpPort": 587,
+    "smtpUsername": "your-email@example.com",
+    "smtpPassword": "your-email-password",
+    "senderEmail": "your-email@example.com"
+  },
+  "socialMedia": {
+    "facebook": "https://www.facebook.com/yourpage",
+    "twitter": "https://www.twitter.com/yourhandle",
+    "instagram": "https://www.instagram.com/youraccount",
+    "youtube": "url"
+  },
+  "DiscordOauth": {
+    "client_id": "1114152149748830238",
+    "secret_id": "KXXHwK4nEkLyO7sEMpnhwxNq3uRNNah2",
+    "scopes": "identify+email",
+    "redirect_url": "http://localhost/Reckoning/login.php"
+  },
+  "Bungeeservers": {
+    "survival": {
+      "ip": "193.228.225.106:25572",
+      "apikey": "ptlc_DlSTDDq8MSRBrcQkoSozdCcXEb61JKqDsgQhA9ReqAi",
+      "host": "https://dash.neronodes.net/",
+      "serverid": "f4efda31"
+    },
+    "Duels": {
+      "ip": "212.227.170.108:3020",
+      "apikey": "ptlc_Wi5RrbE0vzRMiybLSTJDcNnBeFZr6Uw1xJQAbHuOdNy",
+      "host": "https://panel.dandix.de/",
+      "serverid": "fb1c374e"
+    },
+    "Lobby": {
+      "ip": "82.165.34.247:30180",
+      "apikey": "ptlc_kDVAWqqsb1x0t7RyZsqWLssL0CZddAUDYTkZmQLptxY",
+      "host": "https://panel.dandix.de/",
+      "serverid": "3aa48b7d"
+    }
+  },
+  "Marketplace": {
+    "3rdLives": {
+      "items": {
+        "1": {
+          "image": "https://i.postimg.cc/DzSbhg32/revive-photo-removebg-preview.png",
+          "name": "Revive",
+          "description": "This will revive you from the 3rd Lives server when you Died and lost all your lives",
+          "price": "100000",
+          "command": "nothin"
+        },
+        "2": {
+          "image": "https://i.postimg.cc/ABC12345/some-item.png",
+          "name": "Another Item",
+          "description": "This is another item in the 3rd Lives category",
+          "price": "50000",
+          "command": "something"
+        },
+        "3": {
+          "image": "https://i.postimg.cc/XYZ78910/some-other-item.png",
+          "name": "Some Other Item",
+          "description": "This is a different item in the 3rd Lives category",
+          "price": "75000",
+          "command": "another-command"
+        }
+      }
+    }
+  }
+}

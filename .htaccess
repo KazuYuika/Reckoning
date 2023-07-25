@@ -1,0 +1,17 @@
+RewriteEngine On
+RewriteBase /Reckoning/
+
+# If the request matches an existing file or directory, serve it directly
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Rewrite "/dashboard/homepage" to "/dashboard/index.php"
+RewriteRule ^dashboard/homepage$ dashboard/index.php [L]
+RewriteRule ^dashboard/administrator$ dashboard/admindash.php [L]
+RewriteRule ^dashboard/accounts$ dashboard/account_settings.php [L]
+RewriteRule ^dashboard/password$ dashboard/changepass.php [L]
+RewriteRule ^login$ index.php [L]
+# Rewrite "/dashboard/marketplace/config" to "/dashboard/marketplace.php?name=config"
+RewriteRule ^dashboard/marketplace/([^/]+)/?$ dashboard/marketplace.php?name=$1 [QSA,L]
+RewriteRule ^dashboard/options/([^/]+)/?$ dashboard/admindash.php?option=$1 [QSA,L]
+
